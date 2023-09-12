@@ -19,185 +19,149 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="menu container">
-            <a href="#" class="logo">De todo <br> un poco</a>
-            <input type="checkbox" id="menu" />
-            <label for="menu">
+    <div class="grid-index">
+        <header>
+            <div class="logo">
+                <p>De Todo</p>
+                <p class="unpoco">Un Poco</p>
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="mostrar-menu">
                 &#8801
             </label>
-            <nav class="navbar">
-                <ul>
+            <nav>
+                <ul class="navBar">
                     <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./destacado.html">Destacado</a></li>
-                    <li><a href="#">Hombre</a></li>
+                    <li><a href="./Destacado.html">Destacado</a></li>
+                    <li><a href="./Hombre.html">Hombre</a></li>
                     <li><a href="./Mujer.html">Mujer</a></li>
+                    <li><a href="./Iniciar.html"><img src="../Images/aporte.png" alt=""></a></li>
+                    <label for="check" class="esconder-menu">
+                        &#215
+                    </label>
                 </ul>
             </nav>
-            <div class="navbar2">
-                <ul>
-                    <li>
-                        <a href="./iniciar.html"><img src="../Images/aporte.png" alt="Login"></a>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="submenu">
-                        <img src="../Images/car.svg" id="img-carrito" alt="carrito">
-                        <div id="carrito">
-                            <table id="lista-carrito">
-                                <thead>
-                                    <tr>
-                                        <th>Imagen</th>
-                                        <th>Nombre</th>
-                                        <th>Precio</th>
-                                        <th></th>
-                                    </tr>
-                                </thead>
-                                <tbody></tbody>
-                            </table>
-                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar carrito</a>
-                        </div>
-                    </li>
-                </ul>
+        </header>
+        <main>
+            <div class="Titulos">
+                <h1 class="TituloInicio">Indumentaria Hombre</h1>
             </div>
-        </div>
-        <div class="header-content container">
-            <div class="header-txt">
-                <h1>Indumentaria de hombre</h1>
-            </div>
-        </div>
-    </header>
-    <main class="products container" id="lista-1">
-        <div class="product-content">
-            <div class="product">
-                <img src="../Images/nike-air-force.jpg" alt="">
-                <div class="product-txt">
-                    <h3>Zapatillas air force 1 nike</h3>
-                    <p>calidad premium</p>
-                    <p class="precio">$54.900</p>
-                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+            <br><br>
+            <section class="Prendas2">
+                <div class="Prenda2">
+                    <div class="imgp1-2">
+                        <img src="../Images/nike-air-force.jpg" alt="">
+                    </div>
+                    <p> Zapatillas air force 1 nike <br> $54.900 </p>
+                </div>
+                <div class="Prenda2">
+                    <div class="imgp2-2">
+                        <img src="../Images/adidas-superstar-blanca.jpg" alt="">
+                    </div>
+                    <p> Zapatillas adidas superstar blanca <br> $24.999 </p>
+                </div>
+                <div class="Prenda2">
+                    <div class="imgp3-2">
+                        <img src="../Images/remera-puma.jpg " alt="">
+                    </div>
+                    <p> Remera para hombre puma  <br> $19.599 </p>
+                </div>
+                <div class="Prenda2">
+                    <div class="imgp4-2">
+                        <img src="../Images/campera-kappa-blanca.jpg" alt="">
+                    </div>
+                    <p> Campera kappa blanca <br> $16.799 </p>
+                </div>
+                <div class="Prenda2">
+                    <div class="imgp5-2">
+                        <img src="../Images/pantalon-puma.jpg" alt="">
+                    </div>
+                    <p> Pantalon puma  <br> $17.099 </p>
+                </div>
+                <div class="Prenda2">
+                    <div class="imgp6-2">
+                        <img src="../Images/pantalon-adidas.jpg" alt="">
+                    </div>
+                    <p> Pantalon adidas <br> $12.999 </p>
+                </div>
+                <div class="Prenda2">
+                    <div class="imgp7-2">
+                        <img src="../Images/Campera-nike.jpeg" alt="">
+                    </div>
+                    <p> Botines predator adidas <br> $31.899 </p>
+                </div>
+                <div class="Prenda2">
+                    <div class="imgp8-2">
+                        <img src="../Images/remera-kappa-blanca.jpg" alt="">
+                    </div>
+                    <p> Remera kappa blanca <br> $5.999 </p>
+                </div>
+                <div class="Prenda2">
+                    <div class="imgp9">
+                        <img src="../Images/botines-adidas.jpg" alt="">
+                    </div>
+                    <p> Campera nike rompeviento <br> $27.800 </p>
+                </div>
+                <div class="Prenda2">
+                    <div class="imgp10">
+                        <img src="../Images/Remera-adidas.jpg" alt="">
+                    </div>
+                    <p> Remera adidas negra <br> $16.799 </p>
+                </div>
+                <div class="Prenda2">
+                    <div class="imgp11">
+                        <img src="../Images/botines-mercurial.jpg" alt="">
+                    </div>
+                    <p> Botines nike mercurial <br> $37.599 </p>
+                </div>
+                <div class="Prenda2">
+                    <div class="imgp12">
+                        <img src="../Images/buso-adidas.jpg" alt="">
+                    </div>
+                    <p> Buso adidas rojo <br> $39.990 </p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="Pie1">
+                <div class="Contacto">
+                    <p class="DTP">DE TODO UN POCO</p><br>
+                    <p>Detodounpoco@gmail.com</p>
+                    <p>Tel: +54 1137853055</p>
+                </div>
+                <div class="Info">
+                    <div class="Tienda">
+                        <p class="Titulo">TIENDA</p><br>
+                        <p>Destacado</p>
+                        <p>Hombre</p>
+                        <p>Mujer</p>
+                    </div>
+                    <div class="Nosotros">
+                        <p class="Titulo">NOSOTROS</p><br>
+                        <p>Acerca de</p>
+                        <p>Suscribite</p>
+                        <p>FAQ</p>
+                    </div>
+                    <div class="TyC">
+                        <p class="Titulo">TERMINOS Y CONDICIONES</p><br>
+                        <p>Politica de la tienda</p>
+                        <p>Envio y devoluciones</p>
+                        <p>Metodos de pago</p>
+                    </div>
                 </div>
             </div>
-            <div class="product">
-                <img src="../Images/adidas-superstar-blanca.jpg" alt="">
-                <div class="product-txt">
-                    <h3>Zapatillas adidas superstar blanca</h3>
-                    <p>calidad premium</p>
-                    <p class="precio">$24.999</p>
-                    <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+            <div class="Pie2">
+                <div class="Redes">
+                    <img src="../Images/instagram.png" alt="">
+                    <img src="../Images/gorjeo.png" alt="">
+                    <img src="../Images/facebook.png" alt="">
+                    <img src="../Images/youtube.png" alt="">
+                </div>
+                <div class="Copi">
+                    <p>© 2023 Creado por De Todo Un Poco</p>
                 </div>
             </div>
-            <div class="product">
-                <img src="../Images/remera-puma.jpg" alt="">
-                <div class="product-txt">
-                    <h3>Remera para hombre puma</h3>
-                    <p>calidad premium</p>
-                    <p class="precio">$19.599</p>
-                    <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
-                </div>
-            </div>
-            <div class="product">
-                <img src="../Images/campera-kappa-blanca.jpg" alt="">
-                <div class="product-txt">
-                    <h3>Campera kappa blanca</h3>
-                    <p>calidad premium</p>
-                    <p class="precio">$16.799</p>
-                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
-                </div>
-            </div>
-            <div class="product">
-                <img src="../Images/pantalon-puma.jpg" alt="">
-                <div class="product-txt">
-                    <h3>Pantalon puma</h3>
-                    <p>calidad premium</p>
-                    <p class="precio">$17.099</p>
-                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
-                </div>
-            </div>
-            <div class="product">
-                <img src="../Images/pantalon-adidas.jpg" alt="">
-                <div class="product-txt">
-                    <h3>Pantalon adidas</h3>
-                    <p>calidad premium</p>
-                    <p class="precio">$12.999</p>
-                    <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
-                </div>
-            </div>
-            <div class="product">
-                <img src="../Images/botines-adidas.jpg" alt="">
-                <div class="product-txt">
-                    <h3>Botines predator adidas</h3>
-                    <p>calidad premium</p>
-                    <p class="precio">$31.899</p>
-                    <a href="#" class="agregar-carrito btn-2" data-id="7">Agregar al carrito</a>
-                </div>
-            </div>
-            <div class="product">
-                <img src="../Images/remera-kappa-blanca.jpg" alt="">
-                <div class="product-txt">
-                    <h3>Remera kappa blanca</h3>
-                    <p>calidad premium</p>
-                    <p class="precio">$5.999</p>
-                    <a href="#" class="agregar-carrito btn-2" data-id="8">Agregar al carrito</a>
-                </div>
-            </div>
-            <div class="product">
-                <img src="../Images/Campera-nike.jpeg" alt="">
-                <div class="product-txt">
-                    <h3>Campera nike rompeviento</h3>
-                    <p>calidad premium</p>
-                    <p class="precio">$27.800</p>
-                    <a href="#" class="agregar-carrito btn-2" data-id="9">Agregar al carrito</a>
-                </div>
-            </div>
-        </div>
-    </main>
-    <footer class="footer">
-        <div class="footer-content containe">
-            <div class="Contacto">
-                <h3>De todo un poco</h3>
-                <p>Detodounpoco@gmail.com</p>
-                <p>Tel: +54 1137853055</p>
-            </div>
-            <div class="Info">
-                <div class="Tienda">
-                    <h3>Tienda</h3>
-                    <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Destacado</a></li>
-                        <li><a href="#">Hombre</a></li>
-                        <li><a href="#">Mujer</a></li>
-                    </ul>
-                </div>
-                <div class="Nosotros">
-                    <h3>Nosotros</h3>
-                    <ul>
-                        <li><a href="#">Acerca de</a></li>
-                        <li><a href="#">Suscribite</a></li>
-                        <li><a href="#">FAQ</a></li>
-                    </ul>
-                </div>
-                <div class="TyC">
-                    <h3>Terminos y condiciones</h3>
-                    <ul>
-                        <li><a href="#">Politica de la tienda</a></li>
-                        <li><a href="#">Envio y devoluciones</a></li>
-                        <li><a href="#">Metodos de pago</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-content-2 containe">
-            <div class="Redes">
-                <img src="../Images/instagram.png" alt="">
-                <img src="../Images/gorjeo.png" alt="">
-                <img src="../Images/facebook.png" alt="">
-                <img src="../Images/youtube.png" alt="">
-            </div>
-            <div class="Copi">
-                <p>© 2023 Creado por De Todo Un Poco</p>
-            </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 </body>
 </html>
